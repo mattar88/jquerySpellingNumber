@@ -1,6 +1,5 @@
 # jquerySpellingNumber
  jQuery Spelling Number it's a plugin convert number to words - their written form(تفقيط أوتحويل الأرقام الى كلمات).
- <br /> Original NodeJs base code [js-written-number](https://github.com/yamadapc/js-written-number/)
 
 ## Examples
 ### [Convert Number to words](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_en_number)
@@ -122,4 +121,5 @@ A `unit` can be:
 | `useFewEnding`         | Use _few_ form for numbers ending with 2, 3 or 4.                                                      | `uk`              |
 | `avoidEndingRules`     | Plural form used instead of `useSingularEnding` and `useFewEnding`                                     | `uk`              |
 
-
+# Reference
+Original NodeJs base code [js-written-number](https://github.com/yamadapc/js-written-number/)
