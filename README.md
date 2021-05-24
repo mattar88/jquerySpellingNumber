@@ -33,7 +33,7 @@ Just follow these simple steps in order to enable it to your app:
         digitsLengthW2F: 3,
         decimalSeperator: "and"
            };
-     $.spellingNumber(100.951, options_sn);
+     $.spellingNumber(100.951, options_sn); //=> One Hundred Ton And Nine Hundred Fifty-One Kg
   
     $.spellingNumber(1234); // => 'one thousand two hundred and thirty-four'
     $.spellingNumber(4758, {lang: 'es'}); // => 'cuatro mil setecientos cincuenta y ocho'
