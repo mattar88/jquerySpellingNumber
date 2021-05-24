@@ -1,5 +1,5 @@
 # jquerySpellingNumber
-jQuery  Spelling Number it's a plugin convert number to words - their written form.
+ jQuery Spelling Number it's a plugin convert number to words - their written form(تفقيط أوتحويل الأرقام الى كلمات).
 
 ## Examples
 ### [Convert Number to words](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_en_number)
