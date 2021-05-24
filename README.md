@@ -1,6 +1,6 @@
 # jquerySpellingNumber
- __jQuery Spelling Number it's a plugin convert number to words - their written form(تفقيط أوتحويل الأرقام الى كلمات).
- __Original NodeJs base code [js-written-number](https://github.com/yamadapc/js-written-number/)
+ a__jQuery Spelling Number it's a plugin convert number to words - their written form(تفقيط أوتحويل الأرقام الى كلمات).
+ b__Original NodeJs base code [js-written-number](https://github.com/yamadapc/js-written-number/)
 
 ## Examples
 ### [Convert Number to words](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_en_number)
