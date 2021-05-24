@@ -25,7 +25,7 @@ Just follow these simple steps in order to enable it to your app:
     ```
 ## Usage
  
-    ```js
+ ```js
     var options_sn = {
         lang: "en",
         wholesUnit: "ton",
@@ -46,7 +46,7 @@ Just follow these simple steps in order to enable it to your app:
     $.spellingNumber(1234, {lang: 'vi'});   // => 'một ngàn hai trăm và ba mươi bốn'
     $.spellingNumber(1234, {lang: 'uk'});   // => 'одна тисяча двісті тридцять чотири'
     $.spellingNumber(1234, {lang: 'id'});   // => 'seribu dua ratus tiga puluh empat'
-    ```
+   ```
 
 ## Options
 - `noAnd` - Defaults to `false`. Determines whether to use a separator. The
