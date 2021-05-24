@@ -104,14 +104,14 @@
   $.spellingNumber(100.951, options_sn);
            `}};
 $.each({'Spelling in English':example, 'التفقيط باللغة العربية': example_ar},function(title, _example){
-    $(body').append('<h1>'+title+'</h1>');
+    $('body').append('<h1>'+title+'</h1>');
     $.each(_example, function(key, value){
        
     var element =  $(template(key, value));
     element.find('.number').html(value.number);
     element.find('.code').html(value.code);  
     element.find('.spelling-number').html(eval(value.code));
-    $('#examples').append(element);
+    $('body').append(element);
 })
 
    
