@@ -1,10 +1,15 @@
 # jquerySpellingNumber
-jQuery  Spelling Number its a plugin convert number to words - their written form.
+jQuery  Spelling Number it's a plugin convert number to words - their written form.
 
 ## Examples
 ### [Convert Number to words](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_en_number)
 ### [تفقيط أو تحويل الرقم الى كلمات](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_ar_number)
 
+## Features:
+ *  Support 14 languages included arabic language
+ *  You can specify the Whole unit and Fraction Unit and the Decimal separator
+ *  you can convert Currency and Weight number to word
+ 
 ## Install
 
 Just follow these simple steps in order to enable it to your app:
