@@ -20,6 +20,29 @@
            };
            
     $('#spelling_en_number .spelling-number').html( $.spellingNumber(1625444.13, options_sn));
+       
+    var options_sn = {
+        lang: "en",
+        wholesUnit: "dollars",
+        fractionUnit: "cents",
+        digitsLengthW2F: 2,
+        decimalSeperator: "and"
+           };
+           
+    $('#spelling_en_money .spelling-number').html( $.spellingNumber(12300.23, options_sn));
+       
+       
+    var options_sn = {
+        lang: "en",
+        wholesUnit: "ton",
+        fractionUnit: "kg",
+        digitsLengthW2F: 3,
+        decimalSeperator: "and"
+           };    
+    $('#spelling_en_weight .spelling-number').html( $.spellingNumber(100.951, options_sn));
+       
+        
+       
      });
   </script>
     
@@ -48,7 +71,8 @@
 
                     <div class="spelling-number" style="text-transform: capitalize;"> </div>
                 </div>
-                    </div><div id="spelling_en_money"><h1>2. Example Convert Dollars and Cents into words</h1><div class="wrapper" style="padding-left: 39px;">   
+                    </div>
+<div id="spelling_en_money"><h1>2. Example Convert Dollars and Cents into words</h1><div class="wrapper" style="padding-left: 39px;">   
                     <h3>Code</h3>
                     <pre class="code">
     var options_sn = {
@@ -64,7 +88,7 @@
                     <h3>Number and Selling value</h3>
                     <div class="number">12300.23</div>
 
-                    <div class="spelling-number" style="text-transform: capitalize;">twelve thousand three hundred dollars and twenty-three cents</div>
+                    <div class="spelling-number" style="text-transform: capitalize;"></div>
                 </div>
                     </div><div id="spelling_en_weight"><h1>3. Example Convert Weight number into words</h1><div class="wrapper" style="padding-left: 39px;">   
                     <h3>Code</h3>
@@ -82,7 +106,7 @@
                     <h3>Number and Selling value</h3>
                     <div class="number">100.951</div>
 
-                    <div class="spelling-number" style="text-transform: capitalize;">one hundred ton and nine hundred fifty-one kg</div>
+                    <div class="spelling-number" style="text-transform: capitalize;"></div>
                 </div>
                     </div><h1>التفقيط باللغة العربية</h1><div id="spelling_ar_number"><h1>   ١. تفقيط أو تحويل الرقم الى كلمات</h1><div class="wrapper" style="padding-left: 39px;">   
                     <h3>Code</h3>
