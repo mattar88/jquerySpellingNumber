@@ -6,9 +6,9 @@
 ### [تفقيط أو تحويل الرقم الى كلمات](https://mattar88.github.io/jquerySpellingNumber/examples#spelling_ar_number)
 
 ## Features:
- *  Support 14 languages included arabic language
+ *  Support 14 languages includes arabic language
  *  You can specify the Whole unit and Fraction Unit and the Decimal separator
- *  you can convert Currency and Weight number to word
+ *  you can convert Currency and Weight number to words
  
 ## Install
 
