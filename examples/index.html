@@ -13,6 +13,9 @@
     <script src="../jquerySpellingNumber.min.js"></script>
   <script>
      $( document ).ready(function() {
+       
+       
+      //English spelling 
       var options_sn = {
             lang: "en",
             digitsLengthW2F: 3,
@@ -42,6 +45,34 @@
     $('#spelling_en_weight .spelling-number').html( $.spellingNumber(100.951, options_sn));
        
         
+       //Arabic spelling
+    var options_sn = {
+            lang: "ar",
+            digitsLengthW2F: 2,
+            decimalSeperator: "فاصلة"
+           };
+           
+    $('#spelling_ar_number .spelling-number').html( $.spellingNumber(1625444.13, options_sn));
+       
+    var options_sn = {
+        lang: "ar",
+        wholesUnit: "ليرة لبنانية",
+        fractionUnit: "قرش",
+        digitsLengthW2F: 3,
+        decimalSeperator: "و"
+           };
+           
+    $('#spelling_ar_money .spelling-number').html( $.spellingNumber(12300.23, options_sn));
+       
+       
+    var options_sn = {
+        lang: "ar",
+        wholesUnit: "طن",
+        fractionUnit: "كيلوغرام",
+        digitsLengthW2F: 3,
+        decimalSeperator: "و"
+           };
+    $('#spelling_ar_weight .spelling-number').html( $.spellingNumber(100.951, options_sn));  
        
      });
   </script>
@@ -123,7 +154,7 @@
                     <h3>Number and Selling value</h3>
                     <div class="number">1625444.13</div>
 
-                    <div class="spelling-number" style="text-transform: capitalize;">مليون وستمائة وخمسة وعشرون ألف وأربعمائة وأربعة وأربعون  فاصلة ثلاثة عشر </div>
+                    <div class="spelling-number" style="text-transform: capitalize;"></div>
                 </div>
                     </div><div id="spelling_ar_money"><h1> ٢.تفقيط العملة</h1><div class="wrapper" style="padding-left: 39px;">   
                     <h3>Code</h3>
@@ -141,7 +172,7 @@
                     <h3>Number and Selling value</h3>
                     <div class="number">12300.23</div>
 
-                    <div class="spelling-number" style="text-transform: capitalize;">إثنا عشر ألف وثلاثمائة ليرة لبنانية و مائتان وثلاثون قرش</div>
+                    <div class="spelling-number" style="text-transform: capitalize;"></div>
                 </div>
                     </div><div id="spelling_ar_weight"><h1>  ٣.تفقيط الوزن</h1><div class="wrapper" style="padding-left: 39px;">   
                     <h3>Code</h3>
@@ -159,7 +190,7 @@
                     <h3>Number and Selling value</h3>
                     <div class="number">100.951</div>
 
-                    <div class="spelling-number" style="text-transform: capitalize;">مائة طن و تسعمائة وواحد وخمسون كيلوغرام</div>
+                    <div class="spelling-number" style="text-transform: capitalize;"></div>
                 </div>
                     </div></div>
 
