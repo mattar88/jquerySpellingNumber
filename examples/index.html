@@ -10,6 +10,17 @@
  
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../jquerySpellingNumber.min.js"></script>
+  <script>
+     $( document ).ready(function() {
+      var options_sn = {
+            lang: "en",
+            digitsLengthW2F: 3,
+            decimalSeperator: "point"
+           };
+           
+    $('#spelling_en_number .spelling-number').html( $.spellingNumber(1625444.13, options_sn));
+     });
+  </script>
     
 </head>
 <body>
@@ -34,7 +45,7 @@
                     <h3>Number and Selling value</h3>
                     <div class="number">1625444.13</div>
 
-                    <div class="spelling-number" style="text-transform: capitalize;">one million six hundred twenty-five thousand four hundred and forty-four  point one hundred thirty </div>
+                    <div class="spelling-number" style="text-transform: capitalize;"> </div>
                 </div>
                     </div><div id="spelling_en_money"><h1>2. Example Convert Dollars and Cents into words</h1><div class="wrapper" style="padding-left: 39px;">   
                     <h3>Code</h3>
