@@ -1,4 +1,4 @@
-# jquerySpellingNumber
+# jQuery Spelling Number
  jQuery Spelling Number it's a plugin convert number to words - their written form(تفقيط أوتحويل الأرقام الى كلمات).
 
 ## Examples
