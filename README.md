@@ -123,3 +123,6 @@ A `unit` can be:
 
 # Reference
 Original NodeJs base code [js-written-number](https://github.com/yamadapc/js-written-number/)
+
+<h4>This plugin is sponsored by <a href="https://www.tolastbit.com/" rel="nofollow">To Last Bit</a>.</h4>
+<img title="to last bit" alt="To Last Bit" src="https://www.drupal.org/files/styles/grid-3/public/slogan%20black%20bg%20white.png">
